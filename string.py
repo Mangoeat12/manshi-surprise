@@ -18,8 +18,10 @@ data1 =" 10hi"
 #replacing the string with new one so use this 
 #.replace(replace string, new string)
 
+import streamlit as st
+
 
 replace = input("Enter your name: ")
 
-if replace.upper() == "AYUSH":
-    print("Welcome Mango")
+if replace.upper() == "ADITYA":
+    print("Welcome Manshi 💕💕💕💕")
