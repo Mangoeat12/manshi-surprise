@@ -21,7 +21,7 @@ data1 =" 10hi"
 import streamlit as st
 
 
-replace = input("Enter your name: ")
+replace = st.text_input("Enter your name: ")
 
 if replace.upper() == "ADITYA":
     print("Welcome Manshi 💕💕💕💕")
