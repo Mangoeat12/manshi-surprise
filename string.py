@@ -24,4 +24,4 @@ import streamlit as st
 replace = st.text_input("Enter your name: ")
 
 if replace.upper() == "ADITYA":
-    print("Welcome Manshi 💕💕💕💕")
+    st.write("Welcome Manshi 💕💕💕💕")
